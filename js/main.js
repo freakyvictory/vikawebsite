@@ -1,6 +1,14 @@
-$('.slider__item').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
+$(function(){
+  
+  $('.slider__inner').slick({
+  infinite:true,
+  slidesToShow: 1,
+slidesToScroll: 1,
+  arrows: false,
+  dots: true,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 1200,
+});
+
+
 });
