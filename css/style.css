@@ -33,13 +33,16 @@ li {
   max-width: 1030px;
   justify-content:space-between;
   margin: 0 auto;
-  padding: 0 15px;
+  padding:  15px;
   display: block;
+  box-shadow: 0px 2px 5px 0px rgba(169, 169, 169, 1);
+  border-radius: 10px;
 }
 
 .header {
   background-color: #e8ebf1;
-  box-shadow: 0px 2px 5px 0px rgba(1, 0, 0, 0.07);
+  /* border-bottom:5px solid rgba(169, 169, 169, 0.4); */
+  box-shadow: 0px 2px 10px 0px rgba(169, 169, 169, 1);
 }
 
 .header__inner {
@@ -177,19 +180,21 @@ transition: transform .3s;
 
 .slider{
   background-color: #81e4ed;
-  padding: 40px 0 10px;
+  padding: 30px 0 10px;
+  
 }
 
   
 .slider__item{  
-
-  height:450px;
+padding: 20px;
+  height:500px;
   width: 800px;
   margin: 0 auto;
  
   background-position: center;
   background-size: cover;
  background-repeat:no-repeat;
+
 
 }
 
@@ -201,6 +206,8 @@ transition: transform .3s;
   background-position: center;
   background-size: cover;
  background-repeat:no-repeat;
+ border-radius: 10px;
+ box-shadow: 0px 5px 0px 0px rgba(42, 172, 200, );
 }
 .image2{
   height:450px;
@@ -210,7 +217,9 @@ transition: transform .3s;
   background-position: center;
   background-size: cover;
  background-repeat:no-repeat;
+ border-radius: 10px;
 }
+
 
 .image3{
   height:450px;
@@ -220,7 +229,9 @@ transition: transform .3s;
   background-position: center;
   background-size: cover;
  background-repeat:no-repeat;
+ border-radius: 10px;
 }
+
 
 .image4{
   height:450px;
@@ -230,6 +241,8 @@ transition: transform .3s;
   background-position: center;
   background-size: cover;
  background-repeat:no-repeat;
+ border-radius: 10px;
+
 }
 
 .slick-dots li.slick-active button{
@@ -244,12 +257,39 @@ border-radius: 50%;
 
 }
 
-/* .slick-dots li{
+
+.slick-dots li{
   margin: 0 9px;
   height: auto;
   width: auto;
-} */
+}
 
 .slick-dots li button:before{
   display: none;
+}
+
+.items{
+  background-color: #e8ebf1;
+  /* padding: 60px 0 50px; */
+}
+
+items__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item{
+  width: 225px;
+
+  font-family: 'arial', sans-serif;
+
+}
+
+.item__title{
+  font-size: 15;
+  font-weight: 600;
+  line-height:20px;
+  text-transform: uppercase;
+  padding: 10 0  0 60px;
+  margin-bottom: 30px;
 }
